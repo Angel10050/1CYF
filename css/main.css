@@ -1,0 +1,259 @@
+
+body {
+   margin: 0;
+}
+.logo {
+   margin-top: 0px;
+}
+
+#header-img {
+ display: block;
+ position: relative;
+ margin-left: 340px;
+ margin-top: 80px;
+ margin-bottom: 49px;
+ width: 700px;
+ height: 200px;
+}
+#nav-bar {
+  position: absolute;
+  top: 5px;
+  left: 55px;
+}
+
+#nav-bar  ul{
+   position: relative;
+   list-style: none;
+   left: 325px;
+   margin: 10px;
+}
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+#nav-bar  li{
+   float: left;
+   margin: 0 30px;
+   font-size: 15px;
+   font-family: 'Indie Flower', cursive;
+}
+#nav-bar a{
+   text-decoration: none;
+   color: #506C47;
+}
+#piedras {
+   margin-top: 10px;
+   width: 99%;
+   height: 400px;
+   border-radius: 111px 111px ;
+}
+
+#image-caption{
+   position: relative;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 23px;
+   max-width: 900px;
+   margin-top: 100px;
+   margin-left: 227px;
+   margin-bottom: 150px;
+   color: #666;
+   padding: 35px;
+   line-height: 50px;
+   left: -50px;
+}
+/*color de spiritopp estilo inicia*/
+.color{
+  color: #009B94;
+}
+.bienvenidos{ 
+   font-size: 28px;
+}
+/*color de spiritopp estilo cierra*/
+#cursos {
+   margin-top: 230px;
+   margin-bottom: 75px; 
+   text-align: center;
+   color: #009B94;
+   font-family:'Caveat', cursive, 'Playfair Display', serif;
+   font-size: 45px;
+}
+div{
+   border-radius: 5px;
+}
+
+div{
+   border-radius: 5px;
+}
+.contenedor{
+   position: absolute;
+   width:90%;
+   height:150px;
+   display:flex;
+   justify-content: space-around;
+   
+}
+.contenido1{
+   height:80px;
+   width:15%;
+   float:left;
+   margin: 3px;
+   position: relative; 
+}
+.contenido2{
+   height:80px;
+   width: 15%;
+   float:left;
+   margin: 3px;
+   position: relative;
+}
+.contenido3{
+   height:80px;
+   width: 15%;
+   float:left;
+   margin: 3px;
+   position: relative;
+}
+#tite {
+   font-size: 32px;
+   position: relative;
+   right: -60px;
+   text-align: center;
+   color: #009B94;  
+   font-family: 'Playfair Display', serif;
+}
+#parra{
+   position: relative;
+   right: -65px;
+   text-align: center;
+   color: #666660;
+   font-family: 'Indie Flower', cursive;
+   font-size: 18px;
+   line-height: 22px;
+}
+/*media queries*/
+@media (max-height: 500px)
+{ 
+   #image-caption {
+     font-size: 15px;
+     line-height: 28px;
+   }
+ }
+/*media queries*/
+
+#img1{
+width: 300px;
+height: 300px;
+border-radius: 140px
+}
+#img2{
+width: 300px;
+height: 300px;
+border-radius: 140px;
+}
+#img3{
+width: 300px;
+height: 300px;
+border-radius: 140px;
+}
+#section2{
+   display: flex;
+}
+/*FORMULARIO ESTILO*/
+#form11{
+   top: -80px; 
+   right: -36px;
+   margin: 15px;
+   height: 33px;   
+   width: 290px;
+   position: relative;
+   border-radius: 5px;
+   background:white;
+   border: 5px outset;
+   border-color: rgb(51, 156, 91); 
+}
+
+#form1{
+   top: -80px; 
+   right: -54px;
+margin: 15px;
+height: 33px;   
+width: 250px;
+position: relative;
+border: 1px outset;
+border-color: #4E6165;
+border-radius: 6px;
+}
+#form2{
+   top: -80px; 
+   right: -54px;
+   margin: 15px;
+   height: 33px;   
+   width: 250px;
+   position: relative;
+   border: 1px outset;
+   border-color: #4E6165;
+border-radius: 6px;
+}
+#form3{
+   top: -80px; 
+   right: -54px;
+   margin: 15px;
+   height: 33px;   
+   width: 250px;
+   position: relative;
+   border: 1px outset;
+   border-color: #4E6165;
+border-radius: 6px;
+} 
+/*FORMULARIO ESTILO CIERRA*/
+iframe{
+   margin-left: 113px;
+   height: 400px;
+   top: -2000px;
+}
+#boletin{
+   width: 400px;
+   position: relative;
+   text-align: center;
+   bottom:  30px;
+   left: -6px;
+   color: #009B94;
+   font-family: 'Playfair Display', serif;
+   font-size: 45px;
+}
+#boleto{
+   border-radius: 60px;
+   position: absolute; 
+   background: #EDFCF3;
+   width: 400px;
+   height: 420px;
+   left: 860px;
+   bottom: -1120px;
+}
+#padre{ 
+   position: relative;
+   text-align: center;
+   bottom: -750px;
+}
+#hijo{
+   display: flex;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: #009B94;
+  padding: 10px;
+  margin: 70px;
+  display: inline-block;}
+
+#insta{
+   width: 70px;
+   height: 70px;
+}
+#face{
+   top: -15px;
+   position: relative;
+   width: 40px;
+   height: 40px;
+}
